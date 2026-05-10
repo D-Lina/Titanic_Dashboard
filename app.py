@@ -79,6 +79,13 @@ st.markdown(f"""
     .info-box * {{
         color: #2d2261 !important;
     }}
+    .info-box code {{
+        background-color: #e8eef8 !important;
+        color: #2d2261 !important;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 13px;
+    }}
     .stat-card {{
         background-color: {C['navy']};
         color: {C['white']};
